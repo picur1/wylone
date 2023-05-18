@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < ledsnumber; index++) {
         randomx = randint(0, 4)
         randomy = randint(0, 4)
-        for (let index2 = 0; index2 <= 50; index2++) {
+        for (let index2 = 0; index2 <= 100; index2++) {
             led.plotBrightness(randomx, randomy, index2)
             control.waitMicros(100)
         }
